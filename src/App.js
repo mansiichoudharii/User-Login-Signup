@@ -11,7 +11,7 @@ const App = () => {
   useEffect(() => {
     localStorage.setItem("isLoggedIn", "false");
   }, []);
-``
+
   return (
     <Box>
       <Grid
